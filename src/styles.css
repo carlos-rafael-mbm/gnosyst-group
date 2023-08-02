@@ -1,0 +1,182 @@
+body {
+    user-select: none;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+body::-webkit-scrollbar:vertical {
+    width:1px;
+}
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+}
+body::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.header-home {
+    background-image: url("./assets/background-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.desktop-component {
+    background-image: url("./assets/software.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.web-component {
+    background-image: url("./assets/web_service.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.movil-component {
+    background-image: url("./assets/movil.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.consulting-component {
+    background-image: url("./assets/consulting.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.factory-component {
+    background-image: url("./assets/factory.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.text-component {
+    font-size: 2.1rem;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.description-component {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: justify;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+}
+
+.title-service {
+    font-size: 1.2rem;
+}
+
+.title-detail {
+    font-size: 2rem;
+}
+
+.custom-hr {
+    border-top: 5px solid;
+}
+
+.px-6 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+.px-8 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.p-8 {
+    padding: 6rem;
+}
+
+.justify-paragraph {
+    text-align: justify;
+}
+
+.title-intro {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-intro {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.text-together {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.picture-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.position-centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-team {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title-desktop {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-desktop {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.title-desktop-features {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text-desktop-features {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+    .header-home {
+        background-image: url("./assets/background-home-vertical.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+    }
+
+    .text-intro {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .text-team {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

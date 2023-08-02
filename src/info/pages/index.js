@@ -1,0 +1,6 @@
+export * from './HomePage'
+export * from './AboutPage'
+export * from './ContactPage'
+export * from './DesktopPage'
+export * from './WebPage'
+export * from './MobilePage'
