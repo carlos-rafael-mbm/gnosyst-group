@@ -18,7 +18,7 @@ export const QuestionListComponent = () => {
 
     return (
         <div className="row w-100 p-0 m-0 mb-5 align-items-center justify-content-center">
-            <div className="col-auto w-50">
+            <div className={`col-auto ${window.innerWidth > 1000 ? "w-50" : "w-75" }`}>
                 <h2 className="text-primary text-center mb-3">Preguntas frecuentes</h2>
                 {questions.map((question) => (
                     <div key={question.id}>

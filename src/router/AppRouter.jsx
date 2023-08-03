@@ -6,13 +6,14 @@ const AppRouter = () => {
         <>
             <Navbar />
             <Routes>
-                <Route path='/home' element={<HomePage />} />
+                <Route path='/' element={<HomePage />} />
                 <Route path='/about' element={<AboutPage />} />
                 <Route path='/contact' element={<ContactPage />} />
                 <Route path='/desktop' element={<DesktopPage />} />
                 <Route path='/web' element={<WebPage />} />
                 <Route path='/mobile' element={<MobilePage />} />
-                <Route path='/' element={<Navigate to='/home' />} />
+                <Route path='/home' element={<Navigate to='/' />} />
+                <Route path='/*' element={<Navigate to='/' />} />
             </Routes>
             <Footer />
         </>

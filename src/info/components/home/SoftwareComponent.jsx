@@ -139,20 +139,20 @@ export const SoftwareComponent = () => {
             <div className="row w-100 p-0 m-0">
                 <div className="desktop-component col-lg-4 col-md-4 col-sm-12 p-0 m-0 shadow-lg"
                     style={{height: '500px'}}
-                    onMouseEnter={() => setShowDescriptionDesktop(true)} onTouchStart={() => setShowDescriptionDesktop(true)}
-                    onMouseLeave={() => setShowDescriptionDesktop(false)} onTouchEnd={() => setShowDescriptionDesktop(false)}>
+                    onMouseEnter={() => setShowDescriptionDesktop(true)} onTouchMove={() => setShowDescriptionDesktop(!showDescriptionDesktop)}
+                    onMouseLeave={() => setShowDescriptionDesktop(false)}>
                     {showDescriptionDesktop ? desktopDescription() : desktopScreen()}
                 </div>
                 <div className="web-component col-lg-4 col-md-4 col-sm-12 p-0 m-0 shadow-lg"
                     style={{height: '500px'}}
-                    onMouseEnter={() => setShowDescriptionWeb(true)} onTouchStart={() => setShowDescriptionWeb(true)}
-                    onMouseLeave={() => setShowDescriptionWeb(false)} onTouchEnd={() => setShowDescriptionWeb(false)}>
+                    onMouseEnter={() => setShowDescriptionWeb(true)} onTouchMove={() => setShowDescriptionWeb(!showDescriptionWeb)}
+                    onMouseLeave={() => setShowDescriptionWeb(false)}>
                     {showDescriptionWeb ? webDescription() : webScreen()}
                 </div>
                 <div className="movil-component col-lg-4 col-md-4 col-sm-12 p-0 m-0 shadow-lg"
                     style={{height: '500px'}}
-                    onMouseEnter={() => setShowDescriptionMovil(true)} onTouchStart={() => setShowDescriptionMovil(true)}
-                    onMouseLeave={() => setShowDescriptionMovil(false)} onTouchEnd={() => setShowDescriptionMovil(false)}>
+                    onMouseEnter={() => setShowDescriptionMovil(true)} onTouchMove={() => setShowDescriptionMovil(!showDescriptionMovil)}
+                    onMouseLeave={() => setShowDescriptionMovil(false)}>
                     {showDescriptionMovil ? movilDescription() : movilScreen()}
                 </div>
             </div>
