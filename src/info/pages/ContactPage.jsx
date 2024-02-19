@@ -33,7 +33,7 @@ export const ContactPage = () => {
                     <div className="w-100 p-0 m-0 my-4 row align-items-center justify-content-center">
                         <div className="col-12 text-center">
                             <Icon path={mdiEmail} size={'1.5rem'} className='text-primary me-2' />
-                            <span>carlos.rafael.mbm@gmail.com</span>
+                            <span>ventas@gnosystgroup.com</span>
                         </div>
                     </div>
                     <div className="w-100 p-0 m-0 my-4 row align-items-center justify-content-center">

@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import {InitialComponent, SloganComponent, TeamComponent} from "../components/about"
+import {InitialComponent, SloganComponent} from "../components/about"
 
 export const AboutPage = () => {
 
@@ -10,7 +10,7 @@ export const AboutPage = () => {
     return (
         <>
             <InitialComponent />
-            <TeamComponent />
+            {/* <TeamComponent /> */}
             <SloganComponent />
         </>
     )
